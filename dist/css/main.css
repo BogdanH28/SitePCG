@@ -313,4 +313,5 @@ main {
   .projects {
     grid-template-columns: 1fr; }
   #contact .lg-heading {
-    font-size: 50px; } }
+    font-size: 50px; }
+  background-attachment: initial; }
