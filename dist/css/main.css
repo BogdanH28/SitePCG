@@ -200,6 +200,15 @@ main {
   margin-top: 3px;
   text-align: center; }
 
+.pozitii {
+  border-bottom: 5px solid #cca300;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgba(69, 69, 69, 0.5);
+  text-align: center; }
+  .pozitii .fas {
+    color: #eed; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -211,6 +220,25 @@ main {
       opacity: 0.9;
       border-color: #cca300;
       transition: all 0.5s ease-out; }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 1rem 1.5rem;
+      background: #444;
+      color: #fff; }
+      .boxes div:hover span {
+        color: #fff; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -271,7 +299,9 @@ main {
     grid-template-areas: "bioimage" "bio" "job-1" "job-2";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  #contact .lg-heading {
+    font-size: 70px; } }
 
 @media screen and (max-width: 500px) {
   #home .lg-heading {
@@ -281,4 +311,6 @@ main {
   #desprenoi .lg-heading {
     font-size: 50px; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  #contact .lg-heading {
+    font-size: 50px; } }

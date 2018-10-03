@@ -57,6 +57,12 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  #contact {
+    .lg-heading {
+      font-size: 70px;
+    }
+  }
 }
 // Smartphones
 @include mediaSm {
@@ -78,5 +84,11 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  #contact {
+    .lg-heading {
+      font-size: 50px;
+    }
   }
 }
